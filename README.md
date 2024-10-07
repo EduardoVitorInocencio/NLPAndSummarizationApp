@@ -86,7 +86,7 @@ summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
 Esta linha inicializa o pipeline de sumarização BART usando a biblioteca Transformers da Hugging Face.
 
-# **2. Configuração do NLTK**
+### **2. Configuração do NLTK**
 ```python
 # Define o caminho para o NLTK e baixa os pacotes necessários
 nltk.data.path.append(venv_path)
