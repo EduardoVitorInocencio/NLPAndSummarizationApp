@@ -95,7 +95,7 @@ nltk.download('punkt', download_dir=venv_path)
 
 Este bloco garante que os dados do NLTK, como punkt, sejam baixados dentro do ambiente virtual e carregados a partir daí.
 
-# **3. Sumarizador LexRank (Sumy)**
+### **3. Sumarizador LexRank (Sumy)**
 
 ```python
 def sumy_summarizer(paragraph, sentences_count=2):
@@ -108,7 +108,7 @@ def sumy_summarizer(paragraph, sentences_count=2):
 
 Esta função realiza a sumarização baseada em LexRank, analisando o texto, aplicando stemming e extraindo as sentenças mais relevantes usando LSA.
 
-# **4. Avaliação ROUGE**
+### **4. Avaliação ROUGE**
 ```python
 def evaluate_summary(summary, reference):
     r = Rouge()
@@ -119,7 +119,7 @@ def evaluate_summary(summary, reference):
 
 Esta função calcula a pontuação ROUGE para um resumo gerado em relação a um resumo de referência, retornando os resultados como um DataFrame do Pandas.
 
-# **Configuração e Instalação**
+### **Configuração e Instalação**
 Para executar este projeto localmente, siga as instruções abaixo:
 
 1. Clone este repositório.
